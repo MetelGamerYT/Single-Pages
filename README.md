@@ -35,8 +35,12 @@ Install:
 ```
 > Then activate Auth-Basic with the following command: a2ensite auth-basic                                                                                             
 > Restart Apache2 with:                                                                                                                                                 
-``bash systemctl restart apache2```                                                                                                                             
+```bash 
+systemctl restart apache2
+```                                                                                                                             
 > Create a user with password for basic auth with:                                                                                                                     
-```bash htpasswd -c /etc/apache2/.htpasswd yourusername```                                                                                                           
+```bash 
+htpasswd -c /etc/apache2/.htpasswd yourusername
+```                                                                                                           
 > An Restart Apache2 again.                                                                                                                                             
 > Done, now only those who have the password and the user you created will have access to the files.
