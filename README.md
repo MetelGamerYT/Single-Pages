@@ -42,5 +42,5 @@ systemctl restart apache2
 ```bash 
 htpasswd -c /etc/apache2/.htpasswd yourusername
 ```                                                                                                           
-> An Restart Apache2 again.                                                                                                                                             
+> And Restart Apache2 again.                                                                                                                                             
 > Done, now only those who have the password and the user you created will have access to the files.
