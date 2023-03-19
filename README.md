@@ -23,7 +23,10 @@ Install:
 > First download mcloud and drag it to the directory "/var/www/html".                                                                                                   
 > Then in the same folder of the php file create a folder called data                                                                                                   
 > Then give the data folder and the php file full permissions(777)                                                                                                     
-> Then open in Putty with e.g. nano the following: nano /etc/apache2/sites-available/auth-basic.conf and paste the following lines into the file and save:             
+> Then open in Putty with e.g. nano the following: 
+```bash
+nano /etc/apache2/sites-available/auth-basic.conf and paste the following lines into the file and save:        
+```
 
 ```bash
 <Directory /var/www/html/youfolderwheremcloudisinside>
