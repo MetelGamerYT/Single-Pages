@@ -54,6 +54,6 @@ Info:
 With truthordare.php you can, as the name suggests, play truth or dare
 
 Install:
-> First download this File and drag it to your website directory
-> Second you have to create a Database called "truthordare" and change the mysql config
+> First download this File and drag it to your website directory                                                                                                                                                 
+> Second you have to create a Database called "truthordare" and change the mysql config                                                                                                                         
 > Done, have fun with your friends :)
