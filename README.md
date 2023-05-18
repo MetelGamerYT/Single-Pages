@@ -47,3 +47,13 @@ htpasswd -c /etc/apache2/.htpasswd yourusername
 ```                                                                                                           
 > And Restart Apache2 again.                                                                                                                                             
 > Done, now only those who have the password and the user you created will have access to the files.
+
+## truthordare.php - Infos & Installation
+
+Info:
+With truthordare.php you can, as the name suggests, play truth or dare
+
+Install:
+> First download this File and drag it to your website directory
+> Second you have to create a Database called "truthordare" and change the mysql config
+> Done, have fun with your friends :)
