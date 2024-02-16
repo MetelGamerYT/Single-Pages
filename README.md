@@ -25,8 +25,10 @@ Install:
 > Then give the data folder and the php file full permissions(777)                                                                                                     
 > Then open in Putty with e.g. nano the following: 
 ```bash
-nano /etc/apache2/sites-available/auth-basic.conf and paste the following lines into the file and save:        
+nano /etc/apache2/sites-available/auth-basic.conf
 ```
+
+and paste the following lines into the file and save:        
 
 ```bash
 <Directory /var/www/html/youfolderwheremcloudisinside>
